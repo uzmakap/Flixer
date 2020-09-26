@@ -16,11 +16,11 @@ Flixer is an app that allows users to browse movies from the [The Movie Database
 
 #### BONUS
 - [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
 <img src="http://g.recordit.co/VcNU3oPpnz.gif" width=250><br>
 
 ### Notes
-This app was fairly easy to make. Just had to be careful when inputting info for cocoapods as it cae sensitive and entering urls.
+This app was fairly easy to make. Just had to be careful when inputting info for cocoapods as it cae sensitive and entering url.
