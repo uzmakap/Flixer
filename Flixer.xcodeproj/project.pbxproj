@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07093440252820CF009A7666 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709343F252820CF009A7666 /* MovieDetailsViewController.swift */; };
+		0709344525283CD1009A7666 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709344425283CD1009A7666 /* MovieGridViewController.swift */; };
+		0709344A2528422C009A7666 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070934492528422C009A7666 /* MovieGridCell.swift */; };
 		076B6D02251E6B1F0006D04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B6D01251E6B1F0006D04B /* AppDelegate.swift */; };
 		076B6D04251E6B1F0006D04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B6D03251E6B1F0006D04B /* SceneDelegate.swift */; };
 		076B6D09251E6B1F0006D04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076B6D07251E6B1F0006D04B /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		05B2975801BE45D34483EC03 /* Pods-Flixer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixer.release.xcconfig"; path = "Target Support Files/Pods-Flixer/Pods-Flixer.release.xcconfig"; sourceTree = "<group>"; };
+		0709343F252820CF009A7666 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		0709344425283CD1009A7666 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		070934492528422C009A7666 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		076B6CFE251E6B1F0006D04B /* Flixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076B6D01251E6B1F0006D04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		076B6D03251E6B1F0006D04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				076B6D0F251E6B210006D04B /* Info.plist */,
 				078A0A73251EEB4900F97225 /* MoviesViewController.swift */,
 				078A0A78251EFAA100F97225 /* MovieCell.swift */,
+				0709343F252820CF009A7666 /* MovieDetailsViewController.swift */,
+				0709344425283CD1009A7666 /* MovieGridViewController.swift */,
+				070934492528422C009A7666 /* MovieGridCell.swift */,
 			);
 			path = Flixer;
 			sourceTree = "<group>";
@@ -168,7 +177,6 @@
 				4E49D2534FF24A0BCA84323E /* Pods-FlixerTests.debug.xcconfig */,
 				4789AF877AD378D87AB7C8C6 /* Pods-FlixerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,10 +419,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07093440252820CF009A7666 /* MovieDetailsViewController.swift in Sources */,
 				076B6D02251E6B1F0006D04B /* AppDelegate.swift in Sources */,
 				076B6D04251E6B1F0006D04B /* SceneDelegate.swift in Sources */,
 				078A0A79251EFAA100F97225 /* MovieCell.swift in Sources */,
 				078A0A74251EEB4900F97225 /* MoviesViewController.swift in Sources */,
+				0709344525283CD1009A7666 /* MovieGridViewController.swift in Sources */,
+				0709344A2528422C009A7666 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
